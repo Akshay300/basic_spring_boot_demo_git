@@ -14,4 +14,9 @@ public class GetNameController {
         return name;
     }
 
+    @GetMapping("/age")
+    public int getAge(){
+        return 29;
+    }
+
 }
